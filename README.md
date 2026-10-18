@@ -79,6 +79,27 @@ Make sure you download a build compatible with your Mac's processor. Intel and A
 5. Start chatting with your AI assistant.
 
 Some providers may require an API key or a separate paid account.
+## Getting a Free Google Gemini API Key
+
+Athena AI can use Google's Gemini models with your own API key. Follow these steps to get started.
+
+1. Open [Google AI Studio](https://aistudio.google.com/apikey) and sign in with your Google account.
+2. Navigate to the **API Keys** section.
+3. Click **Create API key** and select an existing Google Cloud project or create a new one.
+4. Copy your generated API key.
+5. Open Athena AI, go to the model or provider settings, select **Google Gemini**, and paste your key into the API key field.
+6. Save your settings and start chatting.
+
+### Important Notes
+
+- Google offers a free Gemini API usage tier for eligible models and usage, subject to its current quotas and terms. **Free access is not unlimited**, and availability can vary.
+- Some models or higher usage levels may require billing to be enabled.
+- Keep your API key private. Never post it publicly or share it with others.
+- API usage is subject to Google's current rate limits, pricing, and terms.
+
+**Official guide:** [Gemini API Keys Documentation](https://ai.google.dev/gemini-api/docs/api-key)
+
+
 
 ---
 
