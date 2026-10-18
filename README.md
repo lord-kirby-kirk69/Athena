@@ -2,40 +2,40 @@
 
 ### Your AI. Your Workspace. Your Intelligence.
 
-Athena AI is an AI-powered desktop assistant designed to bring intelligent conversations and AI capabilities into a single, modern application. Built with a sleek interface and customizable appearance, Athena aims to make interacting with AI simple, intuitive, and accessible.
+Athena AI is an AI-powered desktop assistant designed to bring intelligent conversations and AI capabilities into a single, modern application. With a sleek interface and customizable appearance, Athena aims to make interacting with AI simple, intuitive, and accessible.
 
-This repository provides the **official desktop downloads** for Athena AI. The application's source code is maintained separately and is not included here.
+This repository contains the official downloadable builds of Athena AI. The application's source code is maintained separately and is not included in this repository.
 
 ---
 
 ## Downloads
 
-Download the latest available version for your operating system from the releases page.
+**[Download the Latest Release](https://github.com/lord-kirby-kirk69/Athena-Ai-Downloads/releases/latest)**
 
-**[Download Athena AI — Latest Release](https://github.com/lord-kirby-kirk69/Athena-Ai-Downloads/releases/latest)**
+Choose the installer compatible with your operating system and processor.
 
-| Operating System | Installer | Architecture |
-|---|---|---|
-| Windows | `.exe` or `.msi` | x64, if available |
-| Linux | `.AppImage` or `.deb` | x86_64, if available |
-| macOS | `.dmg` | Intel or Apple Silicon, depending on the build |
+| Operating System | Installer Format |
+|---|---|
+| Windows | `.exe` or `.msi` |
+| Linux | `.AppImage` or `.deb` |
+| macOS | `.dmg` |
 
-Not every platform or architecture is necessarily available in every release. Check the filenames in the latest release before downloading.
+Available platforms and processor architectures depend on the published release.
 
 ---
 
 ## Features
 
-Athena AI is designed around a modern desktop AI experience.
+Athena AI is designed to provide a modern desktop AI experience, including:
 
-- **AI conversations:** Interact with AI models through a dedicated chat interface.
-- **Model flexibility:** Support for configured AI models and providers, depending on the available integrations.
-- **Modern interface:** A desktop experience designed to keep AI tools and conversations accessible.
-- **Customizable appearance:** Visual themes and interface personalization where supported.
-- **Desktop application:** Access Athena through a dedicated application instead of relying entirely on a browser.
-- **Privacy awareness:** Understand how your selected model provider handles the information you send to it.
+- **AI Conversations:** Interact with supported AI models through a dedicated chat interface.
+- **Model Flexibility:** Configure supported models and AI providers where available.
+- **Modern Interface:** A clean desktop environment designed for convenient AI interaction.
+- **Customizable Themes:** Personalize the application's appearance.
+- **Dedicated Desktop App:** Access AI through an installed application.
+- **Configurable AI Integration:** Set up supported providers and credentials through the available application settings.
 
-Features and provider compatibility may vary by release.
+Features may vary between versions.
 
 ---
 
@@ -43,84 +43,101 @@ Features and provider compatibility may vary by release.
 
 ### Windows
 
-1. Download the Windows `.exe` or `.msi` file from [Releases](https://github.com/lord-kirby-kirk69/Athena-Ai-Downloads/releases/latest).
-2. Open the downloaded installer.
+1. Download the `.exe` or `.msi` installer from the Releases section.
+2. Open the downloaded file.
 3. Follow the installation instructions.
 4. Launch Athena AI.
 
-Windows may display a security warning if the application is not code-signed. Only run installers obtained from the official releases page.
-
 ### Linux
 
-1. Download the `.AppImage` or `.deb` file provided for your distribution.
-2. For an AppImage, grant execute permission if necessary:
+1. Download the available `.AppImage` or `.deb` file.
+2. For an AppImage, grant execute permission if needed:
 
    ```bash
    chmod +x Athena*.AppImage
    ```
 
-3. Launch the AppImage, or install the `.deb` using your distribution's package manager.
-
-Exact steps may vary by Linux distribution.
+3. Run the AppImage or install the `.deb` package using your distribution's package manager.
 
 ### macOS
 
-1. Download the `.dmg` matching your Mac's processor.
+1. Download the appropriate `.dmg` file.
 2. Open the disk image.
-3. Follow the included installation instructions.
+3. Follow the installation instructions.
 4. Launch Athena AI.
 
-**Intel Macs and Apple Silicon Macs are different architectures.** Download a compatible build. If macOS blocks an unsigned or unnotarized app, verify the download and publisher before proceeding.
+Make sure you download a build compatible with your Mac's processor. Intel and Apple Silicon Macs may require different builds.
 
 ---
 
 ## Getting Started
 
-Depending on the release and integrations available:
+1. Install and launch Athena AI.
+2. Complete the initial setup, if required.
+3. Configure a supported AI provider or model.
+4. Enter any required API credentials through the application's supported settings.
+5. Start chatting with your AI assistant.
 
-1. Install and open Athena AI.
-2. Follow the initial setup instructions.
-3. Configure a supported AI provider or model if required.
-4. Add the necessary API credentials through the application's supported settings.
-5. Start a conversation.
-
-Some models or providers may require an API key or a separate paid account. Check the relevant provider's pricing and terms before using them.
+Some providers may require an API key or a separate paid account.
 
 ---
 
 ## Privacy and Security
 
-Athena AI's data handling depends on the features and providers you configure.
+Athena AI's data handling depends on the features and AI providers you use.
 
-- Messages sent to an external AI provider may be processed according to that provider's policies.
-- Avoid sharing passwords, financial credentials, confidential documents, or other sensitive information unless you understand how it will be handled.
+- Messages sent to external AI providers may be processed by those providers.
+- Do not share passwords, financial credentials, or confidential information unnecessarily.
 - Keep API keys and other credentials private.
-- Review the application's privacy policy and the selected provider's data-retention practices before use.
+- Review the application's available privacy information before using it with sensitive data.
 
-Do not assume that all conversations remain on your device simply because Athena AI is a desktop application.
+A desktop application does not automatically mean all data stays on your device.
 
 ---
 
 ## Troubleshooting
 
 **The installer will not open**
-
-- Confirm that you downloaded the correct file for your operating system and processor.
-- Download the installer again if the file appears incomplete.
-- Check whether your operating system is blocking an unsigned application.
+- Check that you downloaded the correct installer for your operating system and processor.
+- Download the file again if it appears incomplete.
+- Your operating system may block applications that are not signed or notarized.
 
 **The AI is not responding**
+- Check your internet connection if you use an online provider.
+- Verify your model and provider settings.
+- Check your API credentials, account limits, and provider availability.
 
-- Check your internet connection if using an online provider.
-- Verify the selected model and provider configuration.
-- Check API credentials, account limits, and provider availability.
-
-**The application is incompatible with your device**
-
-- Check the architecture and operating-system requirements listed in the release.
+**The application is incompatible**
+- Check the installer filename and architecture.
+- Download a compatible build from the Releases section if one is available.
 
 ---
 
-## Releases and Updates
+## Updates
 
-New builds and fixes will be published on the [Releases page](https://github.com/lord-kirby-kirk69/Athena-Ai-
+New versions and fixes will be published in the [Releases section](https://github.com/lord-kirby-kirk69/Athena-Ai-Downloads/releases).
+
+Check the release notes before updating. Back up important local data before installing a new version.
+
+---
+
+## Legal and Usage
+
+Athena AI is distributed as a compiled desktop application. Downloading the application does not transfer ownership of its intellectual property.
+
+Third-party components may be subject to their own licences. Applicable third-party notices should be included with the relevant distribution where required.
+
+AI-generated responses may be inaccurate or incomplete. Verify important information independently before relying on it.
+
+---
+
+## Source Code
+
+This repository is dedicated to distributing Athena AI installers and release information. The application's source code is maintained separately and is not provided here.
+
+---
+
+**Athena AI**
+
+*Intelligence, shaped around your workspace.*
+
