@@ -10,7 +10,7 @@ This repository contains the official downloadable builds of Athena AI. The appl
 
 ## Downloads
 
-**[Download the Latest Release](https://github.com/lord-kirby-kirk69/Athena-Ai-Downloads/releases/latest)**
+**[Download the Latest Release](https://github.com/lord-kirby-kirk69/Athena/releases/latest)**
 
 Choose the installer compatible with your operating system and processor.
 
